@@ -44,6 +44,9 @@ int singleNonDuplicate(vector<int> &arr)
     return -1;
 }
 
+// TC is O(logn)
+// Sc is O(1)
+
 int main()
 {
     vector<int> arr = {1, 1, 2, 2, 3, 3, 4, 5, 5, 6, 6};
