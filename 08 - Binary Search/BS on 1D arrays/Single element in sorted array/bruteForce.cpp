@@ -23,6 +23,7 @@ int findSingle(vector<int> &arr, int size)
                 return arr[i];
         }
     }
+    return -1;
 }
 
 // TC is O(n)
